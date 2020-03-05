@@ -1,0 +1,31 @@
+{
+  "name": "remote-university-website",
+  "version": "1.0.0",
+  "description": "A static website for a fictional university.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinMwita7/remote-university-website.git"
+  },
+  "keywords": [
+    "education",
+    "university"
+  ],
+  "author": "Kevin Mwita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinMwita7/remote-university-website/issues"
+  },
+  "homepage": "https://github.com/KevinMwita7/remote-university-website#readme",
+  "dependencies": {
+    "next": "^9.2.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
