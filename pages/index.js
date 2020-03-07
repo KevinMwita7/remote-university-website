@@ -21,11 +21,15 @@ export default () => {
                                 
                     <div class="row mb-4">
                       <div class="col-md-7">
-                        <h1>Shop With Us</h1>
-                        <p class="mb-5 lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.</p>
+                        <h1>Study online</h1>
+                        <p class="mb-5 lead">   
+                        Remote university is a fictional university formulated mainly for  
+                        the facebook hackathon with an aim of linking Julia, a facebook messenger bot,
+                        to a "real" website.
+                        </p>
                         <div>
-                          <a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 mb-lg-0 mb-2 d-block d-sm-inline-block">Shop Now</a>
-                          <a href="#" class="btn btn-white py-3 px-5 rounded-0 d-block d-sm-inline-block">Club Membership</a>
+                          <a href="#" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 mb-lg-0 mb-2 d-block d-sm-inline-block">Sign Up</a>
+                          <a href="#" class="btn btn-white py-3 px-5 rounded-0 d-block d-sm-inline-block">Learn more</a>
                         </div>
                       </div>
                     </div>
@@ -37,51 +41,20 @@ export default () => {
             <div class="site-section" id="about-section">
               <div class="container">
                 <div class="row align-items-lg-center">
-                  <div class="col-md-8 mb-5 mt-5 mb-lg-0 position-relative">
+                  <figure class="col-md-8 mb-5 mt-5 mb-lg-0 position-relative">
                     <img src="images/about_1.jpg" class="img-fluid" alt="Image"/>
-                  </div>
+                    <figcaption>
+                      Photo by Juan Ramos on Unsplash
+                    </figcaption>
+                  </figure>
                   <div class="col-md-3 ml-auto">
                     <h2 class="section-title mb-3">About Us</h2>
-                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui fuga ipsa, repellat blanditiis nihil, consectetur. Consequuntur eum inventore, rem maxime, nisi excepturi ipsam libero ratione adipisci alias eius vero vel!</p>
+                    <p class="mb-4">
+                    Remote University aims at leveraging technology to find new ways of teaching and learning. 
+                    It's massive online courses library offers flexible access to a range of interactive 
+                    courses developed and taught by experienced instructors.
+                      </p>
                     <p><a href="#" class="btn btn-black btn-black--hover rounded-0">Learn More</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="site-section bg-light" id="services-section">
-              <div class="container">
-                <div class="row mb-5">
-                  <div class="col-12 text-center">
-                    <h2 class="section-title mb-3">Our Services</h2>
-                  </div>
-                </div>
-                <div class="row align-items-stretch">
-                  <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
-                    <div class="d-flex">
-                      <div>
-                        <h3>Business Consulting</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="d-flex">
-                      <div class="mr-4"><span class="text-primary icon-backspace"></span></div>
-                      <div>
-                        <h3>Market Analysis</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="d-flex">
-                      <div class="mr-4"><span class="text-primary icon-av_timer"></span></div>
-                      <div>
-                        <h3>User Monitoring</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -99,12 +72,12 @@ export default () => {
                   <div>
                     <div class="testimonial">
                       <figure class="mb-4 d-block align-items-center justify-content-center">
-                        <div><img src="images/person_3.jpg" alt="Image" class="w-100 img-fluid mb-3"/></div>
+                        <div><img src="images/avatar_1.jfif" alt="Image" class="w-100 img-fluid mb-3"/></div>
                       </figure>
                       <blockquote class="mb-3">
-                        <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                        <p>&ldquo;Course materials were good, the mentoring approach was good, and working with other people via the Internet was good. The instructor did a good job of communicating and making it a more intimate arrangement.&rdquo;</p>
                       </blockquote>
-                      <p class="text-black"><strong>John Smith</strong></p>
+                      <p class="text-black"><strong>Light Yagami</strong></p>
 
                       
                     </div>
@@ -113,14 +86,14 @@ export default () => {
                     <div class="testimonial">
                       
                       <figure class="mb-4 d-block align-items-center justify-content-center">
-                        <div><img src="images/person_2.jpg" alt="Image" class="w-100 img-fluid mb-3"/></div>
+                        <div><img src="images/avatar_2.jfif" alt="Image" class="w-100 img-fluid mb-3"/></div>
                       </figure>
 
                       <blockquote class="mb-3">
-                        <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                        <p>&ldquo;You prepare people to carry out skills in the real world. Keep up the good work. What I have learned in this course, I will be able to apply in the real world with honour.&rdquo;</p>
                       </blockquote>
                       
-                      <p class="text-black"><strong>Robert Aguilar</strong></p>
+                      <p class="text-black"><strong>Ninja Warrior</strong></p>
                       
                       
                     </div>
@@ -129,12 +102,12 @@ export default () => {
                   <div>
                     <div class="testimonial">
                       <figure class="mb-4 d-block align-items-center justify-content-center">
-                        <div><img src="images/person_4.jpg" alt="Image" class="w-100 img-fluid mb-3"/></div>
+                        <div><img src="images/avatar_3.jfif" alt="Image" class="w-100 img-fluid mb-3"/></div>
                       </figure>
                       <blockquote class="mb-3">
-                        <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                        <p>&ldquo;In the last three years, the most I have enjoyed about online learning is its flexibility and convenience. I am able to be a full-time employee as well as a full-time student without any struggles.&rdquo;</p>
                       </blockquote>
-                      <p class="text-black"><strong>Roger Spears</strong></p>
+                      <p class="text-black"><strong>Spike Spiegel</strong></p>
 
                       
                     </div>
