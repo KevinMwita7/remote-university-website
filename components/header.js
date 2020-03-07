@@ -1,13 +1,13 @@
 import Link from 'next/link';
 
 export default () => (
-    <header className="navbar">
+    <header className="navigation">
         <Link href="/">
             <a title="Remote university" className="home">Remote University</a>
         </Link>
-        <div className="nav-right">
+        <div className="navigation-right">
             <Link href="/about">
-                <a title="About us" className="nav-link">About us</a>
+                <a title="About us" className="navigation-link">About us</a>
             </Link>
         </div>
         <style jsx>
@@ -25,14 +25,14 @@ export default () => (
                 left: 0;
                 overflow: hidden;
             }
-            .navbar a {
+            .navigation a {
                 float: left;
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
                 font-size: 17px;
             }
-            .navbar a:hover {
+            .navigation a:hover {
                 background-color: #ddd;
                 color: black;
             }
@@ -41,10 +41,10 @@ export default () => (
                 text-align: center;
                 color: #61dafb;
             }
-            .nav-right {
+            .navigation-right {
                 float: right;
             }
-            .nav-right a {
+            .navigation-right a {
                 color: #f2f2f2;
             }
             `}
