@@ -5,11 +5,6 @@ export default () => (
         <Link href="/">
             <a title="Remote university" className="home">Remote University</a>
         </Link>
-        <div className="navigation-right">
-            <Link href="/about">
-                <a title="About us" className="navigation-link">About us</a>
-            </Link>
-        </div>
         <style jsx>
             {`
             * {
@@ -18,8 +13,6 @@ export default () => (
             header {
                 background-color: #20232a;
                 color: #ffffff;
-                position: fixed;
-                z-index: 1;
                 width: 100%;
                 top: 0;
                 left: 0;

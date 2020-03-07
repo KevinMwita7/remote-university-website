@@ -1,10 +1,11 @@
 import Head from 'next/head';
 
 export default ({children}) => (
-    <div className="container">
+    <div>
         <Head>
             <title>Remote University</title>
-            <link rel="stylesheet" href="/static/css/bootstrap.min.css"></link>
+            <link rel="stylesheet" href="/static/css/bootstrap.min.css"/>
+            <link rel="stylesheet" href="/static/css/style.css"/>
         </Head>
         {children}
         <style jsx global>
@@ -12,7 +13,7 @@ export default ({children}) => (
                 `
                     * {
                         font-family: MessinaSans,sans-serif;
-                        color: #0c143b;
+                        color: #fff;
                     }
                     
                 `
