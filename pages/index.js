@@ -118,15 +118,6 @@ export default () => {
             </div>
             </div>
             <Footer/>
-            <style jsx>
-                {`
-                * {
-                    margin: 0;
-                    padding: 0;
-                    box-sizing: inherit;
-                }
-                `}
-            </style>
         </>
     );
 };

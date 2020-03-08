@@ -1,6 +1,10 @@
+import Header from '../components/header';
+
 export default () => {
     return (
         <>
+        <Header/>
+        <div className="container">
         <div class="tab">
             <h1>Privacy Policy of the Julia Facebook app</h1>
 
@@ -111,14 +115,26 @@ export default () => {
                 The Data Controller reserves the right to make changes to this privacy policy at any time by giving notice to its Users on this page. It is strongly recommended to check this page often, referring to the date of the last modification listed at the bottom. If a User objects to any of the changes to the Policy, the User must cease using this Application and can request that the Data Controller remove the Personal Data. Unless stated otherwise, the then-current privacy policy applies to all Personal Data the Data Controller has about Users.
             </p>
         </div>
-        <style jsx>
+        <style jsx global>
             {`
+            body {
+                margin: 0;
+            }
             .tab {
                 padding-bottom: 21px;
                 border-bottom: 1px dotted #dfdfdf;
             }
+            .container {
+                max-width: 1012px;
+                margin-right: auto;
+                margin-left: auto;
+                border: 1px solid #6a737d;
+                padding-left: 25px;
+                padding-right: 25px;
+            }
             `}
         </style>
+        </div>
         </>
     )
 }

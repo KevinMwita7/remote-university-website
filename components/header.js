@@ -1,10 +1,6 @@
-import Link from 'next/link';
-
 export default () => (
     <header className="navigation">
-        <Link href="/">
-            <a title="Remote university" className="home">Remote University</a>
-        </Link>
+        <a title="Remote university" className="home" href="/">Remote University</a>
         <style jsx>
             {`
             * {
