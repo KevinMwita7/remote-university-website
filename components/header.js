@@ -1,6 +1,11 @@
 export default () => (
     <header className="navigation">
         <a title="Remote university" className="home" href="/">Remote University</a>
+        <div className="topnav-right">
+            <a href="/about">About us</a>
+            <a href="/programs">Programs</a>
+            <a href="/apply">Apply</a>
+        </div>
         <style jsx>
             {`
             * {
@@ -30,10 +35,10 @@ export default () => (
                 text-align: center;
                 color: #61dafb;
             }
-            .navigation-right {
+            .topnav-right {
                 float: right;
             }
-            .navigation-right a {
+            .topnav-right a {
                 color: #f2f2f2;
             }
             `}
