@@ -11,7 +11,7 @@ export default () => {
             <link rel="stylesheet" href="/static/css/style.css"/>
             <meta name="keywords" content="Online, Education, Technical"/>
             <meta property="og:type" content="website"/>
-            <meta property="og:image" content="https://remote-university-website-2.now.sh/images/julia_avatar.png"/>
+            <meta property="og:image" content="https://remote-university-website-2.now.sh/images/julia_avatar.jfif"/>
             <meta property="og:title" content="Remote University | Apply"/>
             <meta property="og:description" content="An online education platform"/>
             <meta property="fb:page_id" content="108150007465511"/>
