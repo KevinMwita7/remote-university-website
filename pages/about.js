@@ -36,10 +36,10 @@ export default () => (
                 </p>
                 <h2>On Remote University, you have access to</h2>
                 <div className="row mb-3">
-                <ul class="list-group list-group-flush mx-auto">
-                    <li class="list-group-item"><span className="font-weight-bold">Academic and technical support</span> where you can request feedback through peer reviews and the Remote University Community, and troubleshooting assistance from our knowledgeable Learner Support team.</li>
-                    <li class="list-group-item"><span className="font-weight-bold">Shareable certificates</span> that you can add to your resume and LinkedIn Profile.</li>
-                    <li class="list-group-item"><span className="font-weight-bold">An inclusive experience</span> designed for a diverse global audience, including video subtitles in over 30 languages.</li>
+                <ul className="list-group list-group-flush mx-auto">
+                    <li className="list-group-item"><span className="font-weight-bold">Academic and technical support</span> where you can request feedback through peer reviews and the Remote University Community, and troubleshooting assistance from our knowledgeable Learner Support team.</li>
+                    <li className="list-group-item"><span className="font-weight-bold">Shareable certificates</span> that you can add to your resume and LinkedIn Profile.</li>
+                    <li className="list-group-item"><span className="font-weight-bold">An inclusive experience</span> designed for a diverse global audience, including video subtitles in over 30 languages.</li>
                 </ul>
                 </div>
             </main>
