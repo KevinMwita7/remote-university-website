@@ -27,7 +27,7 @@ export default () => (
         <div className="py-5 bg-light container">
             <h1>About this program</h1>
             <p>
-                The Cloud Computing Specialization takes you on a tour through cloud computing systems. 
+                The Cloud Computing takes you on a tour through cloud computing systems. 
                 We start in in the middle layer with Cloud Computing Concepts covering core distributed 
                 systems concepts used inside clouds, move to the upper layer of Cloud Applications and 
                 finally to the lower layer of Cloud Networking. We conclude with a project that allows you 

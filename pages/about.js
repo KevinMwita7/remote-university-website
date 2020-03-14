@@ -10,7 +10,7 @@ export default () => (
             <link rel="stylesheet" href="/static/css/style.css"/>
         </Head>
         <Header/>
-        <div className="container text-dark">
+        <div className="container text-dark py-5">
             <main>
                 <h1 className="bd-title">About us</h1>
                 <p className="bd-lead mb-5">We envision a world where anyone, anywhere can transform their life by accessing the world’s best learning experience.</p>

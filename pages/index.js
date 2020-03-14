@@ -12,7 +12,6 @@ export default () => {
             </Head>
             <Header/>
             <div>
-
             <div className="site-blocks-cover overlay" style={{backgroundImage: "url(images/hero_2.jpg)"}} data-aos="fade" data-stellar-background-ratio="0.5">
               <div className="container">
                 <div className="row align-items-center justify-content-center">
@@ -29,7 +28,7 @@ export default () => {
                         </p>
                         <div>
                           <a href="#" className="btn btn-white btn-outline-white py-3 px-5 rounded-0 mb-lg-0 mb-2 d-block d-sm-inline-block">Sign Up</a>
-                          <a href="#" className="btn btn-white py-3 px-5 rounded-0 d-block d-sm-inline-block">Learn more</a>
+                          <a href="/about" className="btn btn-white py-3 px-5 rounded-0 d-block d-sm-inline-block">Learn more</a>
                         </div>
                       </div>
                     </div>
@@ -54,7 +53,7 @@ export default () => {
                     It's massive online courses library offers flexible access to a range of interactive 
                     courses developed and taught by experienced instructors.
                       </p>
-                    <p><a href="#" className="btn btn-black btn-black--hover rounded-0">Learn More</a></p>
+                    <p><a href="/about" className="btn btn-black btn-black--hover rounded-0">Learn More</a></p>
                   </div>
                 </div>
               </div>
