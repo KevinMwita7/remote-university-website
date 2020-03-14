@@ -11,7 +11,7 @@ export default () => {
             <link rel="stylesheet" href="/static/css/style.css"/>
             <meta name="keywords" content="Online, Education, Technical"/>
             <meta property="og:type" content="website"/>
-            <meta property="og:image" content="https://scontent.fnbo2-1.fna.fbcdn.net/v/t39.2081-6/c0.0.129.129a/p128x128/88135623_498252967730693_8024066392984649728_n.png?_nc_cat=110&_nc_sid=eaa83b&_nc_ohc=9le5Uz9PIawAX-bkgVD&_nc_ht=scontent.fnbo2-1.fna&oh=9576d36d05bf518569e50a8599eaa7dd&oe=5E916747"/>
+            <meta property="og:image" content="https://remote-university-website-2.now.sh/images/julia_avatar.png"/>
             <meta property="og:title" content="Remote University | Apply"/>
             <meta property="og:description" content="An online education platform"/>
             <meta property="fb:page_id" content="108150007465511"/>
