@@ -14,7 +14,7 @@ export default () => (
       <div class="card mb-3 card-width">
         <div class="row no-gutters">
             <div class="col-md-4">
-            <img src="http://localhost:3000/images/ai.jpg" class="card-img" alt="artificial intelligence"/>
+            <img src="https://remote-university-website-2.now.sh/images/ai.jpg" class="card-img" alt="artificial intelligence"/>
             </div>
             <div class="col-md-8">
             <div class="card-body">
@@ -34,7 +34,7 @@ export default () => (
       <div class="card mb-3 card-width">
         <div class="row no-gutters">
             <div class="col-md-4">
-            <img src="http://localhost:3000/images/cloud.jpg" class="card-img" alt="cloud computing"/>
+            <img src="https://remote-university-website-2.now.sh/cloud.jpg" class="card-img" alt="cloud computing"/>
             </div>
             <div class="col-md-8">
             <div class="card-body">
@@ -54,7 +54,7 @@ export default () => (
       <div class="card mb-3 card-width">
         <div class="row no-gutters">
             <div class="col-md-4">
-            <img src="http://localhost:3000/images/data_science.jpg" class="card-img" alt="data science"/>
+            <img src="https://remote-university-website-2.now.sh/images/data_science.jpg" class="card-img" alt="data science"/>
             </div>
             <div class="col-md-8">
             <div class="card-body">
@@ -73,7 +73,7 @@ export default () => (
       <div class="card mb-3 card-width">
         <div class="row no-gutters">
             <div class="col-md-4">
-            <img src="http://localhost:3000/images/programming.png" class="card-img" alt="programming"/>
+            <img src="https://remote-university-website-2.now.sh/images/programming.png" class="card-img" alt="programming"/>
             </div>
             <div class="col-md-8">
             <div class="card-body">
