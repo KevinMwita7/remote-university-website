@@ -34,7 +34,7 @@ export default () => (
       <div class="card mb-3 card-width">
         <div class="row no-gutters">
             <div class="col-md-4">
-            <img src="https://remote-university-website-2.now.sh/cloud.jpg" class="card-img" alt="cloud computing"/>
+            <img src="https://remote-university-website-2.now.sh/images/cloud.jpg" class="card-img" alt="cloud computing"/>
             </div>
             <div class="col-md-8">
             <div class="card-body">
