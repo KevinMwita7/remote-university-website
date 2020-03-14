@@ -6,9 +6,15 @@ export default () => {
     return(
         <>
         <Head>
-            <title>Remote University | Programs</title>
+            <title>Remote University | Apply</title>
             <link rel="stylesheet" href="/static/css/bootstrap.min.css"/>
             <link rel="stylesheet" href="/static/css/style.css"/>
+            <meta name="keywords" content="Online, Education, Technical"/>
+            <meta name="og:type" content="website"/>
+            <meta name="og:image" content="https://remote-university-website-2.now.sh/images/avatar_1.jfif"/>
+            <meta name="og:title" content="Remote University | Apply"/>
+            <meta name="og:description" content="An online education platform"/>
+            <meta name="fb:page_id" content="108150007465511"/>
         </Head>
         <Header/>
         <main role="main" className="text-dark container py-5">
